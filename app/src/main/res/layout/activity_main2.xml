@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center_horizontal"
+    android:background="#0C2140"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome:"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Scan QR"
+
+        />
+
+    <Button
+        android:id="@+id/passing_btn"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Test pass"
+        />
+
+    <Button
+        android:id="@+id/log_out_btn"
+        android:layout_width="138dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:onClick="btnBack"
+        />
+</LinearLayout>

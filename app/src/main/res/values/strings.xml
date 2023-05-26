@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ElmhurstCheckIn</string>
+    <string name="site_url">https://471c-68-70-126-251.ngrok-free.app</string>
+    <!--<string name="path_name">http://concerts4credit.elmcsis.com/</string> -->
+</resources>
